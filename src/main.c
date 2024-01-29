@@ -3,6 +3,7 @@
 #include <string.h>
 #include "opcode.h"
 
+//init bin to hex values
 const char* hexbin(char c) {
     switch (c) {
         case '0': return "0000";
@@ -25,7 +26,7 @@ const char* hexbin(char c) {
     }
 }
 
-
+// init memory allocation
 char* hex2bin(const char* hexstr) {
     size_t hexlen = strlen(hexstr);
     size_t binlen = hexlen * 4 + 1;
@@ -55,15 +56,18 @@ char* hex2bin(const char* hexstr) {
 int main() {
     char hexstr[100];
 
+// printing init
     printf("hex: ");
     scanf("%s", hexstr);
 
+// Functions
     char* binstr = hex2bin(hexstr);
     char* opcode = hex2op(hexstr);
 
     printf("bin: %s\n", binstr);
     printf("op: %s\n", opcode);
 
+// be free
     free(binstr);
 
     return 0;
