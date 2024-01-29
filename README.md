@@ -7,3 +7,5 @@ Another tool based on the hex-to-bin code, that returns both binary and the coor
 
 # TO COMPILE:
 Use GCC to compile both the opcode.c and the main.c files.
+
+<img width="1084" alt="Screenshot 2024-01-29 at 1 58 18 PM" src="https://github.com/ZachWi/Hex-to-6502-opcode/assets/140131456/30145ff8-be91-4336-8094-17fa2b404549">
