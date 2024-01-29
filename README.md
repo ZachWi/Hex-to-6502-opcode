@@ -6,4 +6,4 @@ Another tool based on the hex-to-bin code, that returns both binary and the coor
 
 
 # TO COMPILE:
-Use GCC to compile both the opcode.c and the hexbin.c files.
+Use GCC to compile both the opcode.c and the main.c files.
