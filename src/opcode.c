@@ -455,6 +455,6 @@ char* hex2op(const char* hexstr) {
     return "INC abs, X";
   }  
   else {
-    return 0; // IT'S FINALLY OVER UGH
+    return 0; // Phew, finally over
   }
 }
